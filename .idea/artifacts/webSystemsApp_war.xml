@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="webSystemsApp:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>webSystemsApp</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="webSystemsApp-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="webSystemsApp:war exploded" />
+    </root>
+  </artifact>
+</component>
